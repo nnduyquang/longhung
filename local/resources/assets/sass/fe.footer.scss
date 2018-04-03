@@ -1,0 +1,42 @@
+#footer {
+  margin-top: 15px;
+  .f-hotline {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    background-color: $main-bg-color;
+    color: white;
+    span {
+      font-size: 20px;
+    }
+  }
+  .f-wrap-info{
+    background-color: #fe0202;
+    color:white;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.2;
+    .f-img-logo{
+      width: 50%;
+    }
+  }
+  .f-bottom {
+    background: $main-bg-color;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    span {
+      color: white;
+      display: block;
+      width: 100%;
+    }
+  }
+}
+@media screen and(max-width: 768px) {
+  #footer {
+    .f-bottom {
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  font: 400 14px/20px Roboto,sans-serif!important;
+  line-height: 1.6;
+  webkit-font-smoothing: antialiased;
+}
+.empty-space-32{
+  height: 32px;
+}
+.dash-full-width{
+  border-bottom: 1px solid #cccccc;
+  height: 20px;
+}
+//e2c566
+$main-bg-color:  linear-gradient(to bottom, rgba(176,0,0,1) 1%,rgba(232,0,0,1) 100%);
+$main-title-color: rgba(176,0,0,1);;
+@import "reset";
+@import "m-category";
+@import "m-menu-blur";
+@import "fe.phoneanimation";
+@import "fe.slider";
+@import "fe.menu";
+@import "fe.footer";

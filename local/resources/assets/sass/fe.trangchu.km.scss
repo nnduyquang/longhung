@@ -1,0 +1,48 @@
+#khuyen-mai {
+  iframe{
+    height: 400px;
+  }
+  .km-top {
+    display: table;
+    span.km-span-dash {
+      display: table-cell;
+      height: 1px;
+      position: relative;
+      vertical-align: middle;
+      width: 50%;
+      .line {
+        height: 1px;
+        border-top: 3px solid $main-title-color;
+        border-bottom: 3px solid #ebebeb;
+        display: block;
+        position: relative;
+        top: 1px;
+        width: 100%;
+      }
+    }
+    h4{
+      white-space: pre;
+      padding: 0 0.8em;
+      color: $main-title-color;
+      text-transform: uppercase;
+      font-weight: bolder;
+    }
+  }
+}
+@media screen and(max-width: 768px) {
+  #khuyen-mai{
+    iframe{
+      height: 200px;
+      width: 100%;
+    }
+    .km-top {
+      span.km-span-dash {
+        display: none;
+      }
+      h4{
+        white-space:normal;
+        text-align: center;
+      }
+    }
+  }
+}
