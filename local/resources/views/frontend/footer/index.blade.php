@@ -8,7 +8,7 @@
         <div class="col-md-12 f-wrap-info">
             <div class="container">
                 <div class="col-md-6">
-                    {{ Html::image('images/logo/logo-300x197.png','',array('class'=>'f-img-logo')) }}
+                    {{ Html::image('images/logo/logo-dreamland-city.png','',array('class'=>'f-img-logo')) }}
                 </div>
                 <div class="col-md-6">
                     <p>THÔNG TIN LIÊN HỆ</p>

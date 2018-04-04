@@ -197,7 +197,7 @@ a, a:hover, a:active {
 }
 
 .sidebar .background-sidebar {
-  background-image: url(../images/logo/logo-300x197.png);
+  background-image: url(../images/logo/logo-dreamland-city.png);
   height: calc(56px*3);
   background-repeat: no-repeat;
   background-size: contain;
@@ -845,7 +845,8 @@ This class is added to the container
 #footer .f-hotline {
   padding-top: 18px;
   padding-bottom: 18px;
-  background-color: linear-gradient(to bottom, #016bd8 1%, #0043e8 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #016bd8), to(#0043e8));
+  background: linear-gradient(to bottom, #016bd8 1%, #0043e8 100%);
   color: white;
 }
 
@@ -854,7 +855,8 @@ This class is added to the container
 }
 
 #footer .f-wrap-info {
-  background-color: #fe0202;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #016bd8), to(#0043e8));
+  background: linear-gradient(to bottom, #016bd8 1%, #0043e8 100%);
   color: white;
   padding-top: 18px;
   padding-bottom: 18px;
