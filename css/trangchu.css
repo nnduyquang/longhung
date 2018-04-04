@@ -288,19 +288,19 @@
 }
 
 #tien-ich-2 #list-tab .nav-tabs li a:hover {
-  color: #bd0101;
-  border-bottom: 2px solid #bd0101;
+  color: #165daf;
+  border-bottom: 2px solid #165daf;
   background-color: #fff;
 }
 
 #tien-ich-2 #list-tab li.active a {
-  color: #bd0101;
+  color: #165daf;
 }
 
 #tien-ich-2 #list-tab .tab-content .photo-wrapper {
   padding: 20px 0 0;
-  border-top: 7px solid #bb0000;
-  border-bottom: 7px solid #bb0000;
+  border-top: 7px solid #165daf;
+  border-bottom: 7px solid #165daf;
 }
 
 #tien-ich-2 #list-tab .tab-content .photo-wrapper img.img-ti2-list {
@@ -443,7 +443,7 @@
   border-radius: 3px;
   border: 1px #ccc solid;
   padding: 5px 20px;
-  color: linear-gradient(to bottom, #b00000 1%, #e80000 100%);
+  color: linear-gradient(to bottom, #016bd8 1%, #0043e8 100%);
   text-transform: uppercase;
 }
 

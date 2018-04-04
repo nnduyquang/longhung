@@ -19,14 +19,14 @@
                     <li><a href="{{URL::to('/')}}">Trang Chủ</a></li>
                     {{--<li><a href="">Bảng Giá</a></li>--}}
                     {{--<li><a href="">Chuyển Nhượng</a></li>--}}
-                    <li><a href="{{URL::to('can-ho')}}">Loại Căn Hộ</a>
+                    {{--<li><a href="{{URL::to('can-ho')}}">Loại Căn Hộ</a>--}}
                         {{--<ul>--}}
                         {{--<li><a href="">1 Phòng Ngủ</a></li>--}}
                         {{--<li><a href="">2 Phòng Ngủ</a></li>--}}
                         {{--<li><a href="">3 Phòng Ngủ</a></li>--}}
                         {{--</ul>--}}
                     </li>
-                    <li><a href="{{URL::to('thiet-ke')}}">Thiết Kế</a></li>
+                    <li><a href="{{URL::to('mat-bang-tong-the')}}">Mặt Bằng Tổng Thể</a></li>
                     <li><a href="{{URL::to('vi-tri')}}">Vị Trí</a></li>
                     <li><a href="{{URL::to('tien-ich')}}">Tiện Ích</a></li>
                     <li><a href="{{URL::to('tin-tuc')}}">Tin Tức</a></li>

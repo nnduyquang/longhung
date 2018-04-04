@@ -13,11 +13,11 @@
                     <div id="list-tab">
                         <ul class="nav nav-tabs">
                             <li class="active">
-                                <a href="#1" data-toggle="tab">Mặt Bằng Tầng Điển Hình</a>
+                                <a href="#1" data-toggle="tab">Phối Cảnh Dự Án</a>
                             </li>
-                            <li><a href="#2" data-toggle="tab">Mặt Bằng Căn Hộ</a>
+                            <li><a href="#2" data-toggle="tab">Tiện Ích</a>
                             </li>
-                            <li><a href="#3" data-toggle="tab">Căn Hộ Thực Tế</a>
+                            <li><a href="#3" data-toggle="tab">Hình Ảnh Thực Tế</a>
                             </li>
                         </ul>
 
@@ -27,32 +27,40 @@
                                     <div class="col-md-4">
                                         <div class="row">
                                             <a class="fancybox" data-fancybox="gallery-ti2"
-                                               href="{{url('/').'/images/uploads/images/thietkes/1.jpg'}}">
-                                                {{ Html::image('images/uploads/images/thietkes/1.jpg','',array('class'=>'img-ti2-list')
+                                               href="{{url('/').'/images/temps/phoi_canh_1.jpg'}}">
+                                                {{ Html::image('/images/temps/phoi_canh_1.jpg','',array('class'=>'img-ti2-list')
                                                 ) }}</a>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
                                         <div class="row">
                                             <a class="fancybox" data-fancybox="gallery-ti2"
-                                               href="{{url('/').'/images/uploads/images/thietkes/3.jpg'}}">
-                                                {{ Html::image('images/uploads/images/thietkes/3.jpg','',array('class'=>'img-ti2-list')
+                                               href="{{url('/').'/images/temps/phoi_canh_2.jpg'}}">
+                                                {{ Html::image('/images/temps/phoi_canh_2.jpg','',array('class'=>'img-ti2-list')
                                                 ) }}</a>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
                                         <div class="row">
                                             <a class="fancybox" data-fancybox="gallery-ti2"
-                                               href="{{url('/').'/images/uploads/images/thietkes/4.jpg'}}">
-                                                {{ Html::image('images/uploads/images/thietkes/4.jpg','',array('class'=>'img-ti2-list')
+                                               href="{{url('/').'/images/temps/phoi_canh_3.jpg'}}">
+                                                {{ Html::image('/images/temps/phoi_canh_3.jpg','',array('class'=>'img-ti2-list')
                                                 ) }}</a>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
                                         <div class="row">
                                             <a class="fancybox" data-fancybox="gallery-ti2"
-                                               href="{{url('/').'/images/uploads/images/thietkes/5.jpg'}}">
-                                                {{ Html::image('images/uploads/images/thietkes/5.jpg','',array('class'=>'img-ti2-list')
+                                               href="{{url('/').'/images/temps/phoi_canh_4.jpg'}}">
+                                                {{ Html::image('/images/temps/phoi_canh_4.jpg','',array('class'=>'img-ti2-list')
+                                                ) }}</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="row">
+                                            <a class="fancybox" data-fancybox="gallery-ti2"
+                                               href="{{url('/').'/images/temps/phoi_canh_5.jpg'}}">
+                                                {{ Html::image('/images/temps/phoi_canh_5.jpg','',array('class'=>'img-ti2-list')
                                                 ) }}</a>
                                         </div>
                                     </div>
@@ -79,59 +87,75 @@
                                     <div class="col-md-4">
                                         <div class="row">
                                             <a class="fancybox" data-fancybox="gallery-ti2-2"
-                                               href="{{url('/').'/images/uploads/images/canhos/6.jpg'}}">
-                                                {{ Html::image('images/uploads/images/canhos/6.jpg','',array('class'=>'img-ti2-list')
+                                               href="{{url('/').'/images/temps/tien_ich_1.jpg'}}">
+                                                {{ Html::image('images/temps/tien_ich_1.jpg','',array('class'=>'img-ti2-list')
                                                 ) }}</a>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
                                         <div class="row">
                                             <a class="fancybox" data-fancybox="gallery-ti2-2"
-                                               href="{{url('/').'/images/uploads/images/canhos/7.jpg'}}">
-                                                {{ Html::image('images/uploads/images/canhos/7.jpg','',array('class'=>'img-ti2-list')
+                                               href="{{url('/').'/images/temps/tien_ich_2.jpg'}}">
+                                                {{ Html::image('images/temps/tien_ich_2.jpg','',array('class'=>'img-ti2-list')
                                                 ) }}</a>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
                                         <div class="row">
                                             <a class="fancybox" data-fancybox="gallery-ti2-2"
-                                               href="{{url('/').'/images/uploads/images/canhos/a.jpg'}}">
-                                                {{ Html::image('images/uploads/images/canhos/a.jpg','',array('class'=>'img-ti2-list')
+                                               href="{{url('/').'/images/temps/tien_ich_3.jpg'}}">
+                                                {{ Html::image('images/temps/tien_ich_3.jpg','',array('class'=>'img-ti2-list')
+                                                ) }}</a>
+                                        </div>
+                                    </div>
+                                    {{--<div class="col-md-4">--}}
+                                        {{--<div class="row">--}}
+                                            {{--<a class="fancybox" data-fancybox="gallery-ti2-2"--}}
+                                               {{--href="{{url('/').'/images/uploads/images/canhos/f.jpg'}}">--}}
+                                                {{--{{ Html::image('images/uploads/images/canhos/f.jpg','',array('class'=>'img-ti2-list')--}}
+                                                {{--) }}</a>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                    <div class="col-md-4">
+                                        <div class="row">
+                                            <a class="fancybox" data-fancybox="gallery-ti2-2"
+                                               href="{{url('/').'/images/temps/tien_ich_4.jpg'}}">
+                                                {{ Html::image('images/temps/tien_ich_4.jpg','',array('class'=>'img-ti2-list')
                                                 ) }}</a>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
                                         <div class="row">
                                             <a class="fancybox" data-fancybox="gallery-ti2-2"
-                                               href="{{url('/').'/images/uploads/images/canhos/f.jpg'}}">
-                                                {{ Html::image('images/uploads/images/canhos/f.jpg','',array('class'=>'img-ti2-list')
+                                               href="{{url('/').'/images/temps/tien_ich_5.jpg'}}">
+                                                {{ Html::image('images/temps/tien_ich_5.jpg','',array('class'=>'img-ti2-list')
                                                 ) }}</a>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
                                         <div class="row">
                                             <a class="fancybox" data-fancybox="gallery-ti2-2"
-                                               href="{{url('/').'/images/uploads/images/canhos/j.jpg'}}">
-                                                {{ Html::image('images/uploads/images/canhos/j.jpg','',array('class'=>'img-ti2-list')
+                                               href="{{url('/').'/images/temps/tien_ich_6.jpg'}}">
+                                                {{ Html::image('images/temps/tien_ich_6.jpg','',array('class'=>'img-ti2-list')
                                                 ) }}</a>
                                         </div>
                                     </div>
-                                    <div class="col-md-4">
-                                        <div class="row">
-                                            <a class="fancybox" data-fancybox="gallery-ti2-2"
-                                               href="{{url('/').'/uploads/images/canhos/l.jpg'}}">
-                                                {{ Html::image('images/uploads/images/canhos/l.jpg','',array('class'=>'img-ti2-list')
-                                                ) }}</a>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="row">
-                                            <a class="fancybox" data-fancybox="gallery-ti2-2"
-                                               href="{{url('/').'/images/uploads/images/canhos/m.jpg'}}">
-                                                {{ Html::image('images/uploads/images/canhos/m.jpg','',array('class'=>'img-ti2-list')
-                                                ) }}</a>
-                                        </div>
-                                    </div>
+                                    {{--<div class="col-md-4">--}}
+                                        {{--<div class="row">--}}
+                                            {{--<a class="fancybox" data-fancybox="gallery-ti2-2"--}}
+                                               {{--href="{{url('/').'/uploads/images/canhos/l.jpg'}}">--}}
+                                                {{--{{ Html::image('images/uploads/images/canhos/l.jpg','',array('class'=>'img-ti2-list')--}}
+                                                {{--) }}</a>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                    {{--<div class="col-md-4">--}}
+                                        {{--<div class="row">--}}
+                                            {{--<a class="fancybox" data-fancybox="gallery-ti2-2"--}}
+                                               {{--href="{{url('/').'/images/uploads/images/canhos/m.jpg'}}">--}}
+                                                {{--{{ Html::image('images/uploads/images/canhos/m.jpg','',array('class'=>'img-ti2-list')--}}
+                                                {{--) }}</a>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
                                     {{--<div class="col-md-4">--}}
                                         {{--<div class="row">--}}
                                             {{--<a class="fancybox" data-fancybox="gallery-ti2-2"--}}
@@ -156,139 +180,139 @@
                                     <div class="col-md-4">
                                         <div class="row">
                                             <a class="fancybox" data-fancybox="gallery-ti2-3"
-                                               href="{{url('/').'/images/temps/2.jpg'}}">
-                                                {{ Html::image('images/temps/2.jpg','',array('class'=>'img-ti2-list')
+                                               href="{{url('/').'/images/temps/thuc_te_1.jpg'}}">
+                                                {{ Html::image('images/temps/thuc_te_1.jpg','',array('class'=>'img-ti2-list')
                                                 ) }}</a>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
                                         <div class="row">
                                             <a class="fancybox" data-fancybox="gallery-ti2-3"
-                                               href="{{url('/').'/images/temps/3.jpg'}}">
-                                                {{ Html::image('images/temps/3.jpg','',array('class'=>'img-ti2-list')
+                                               href="{{url('/').'/images/temps/thuc_te_2.jpg'}}">
+                                                {{ Html::image('images/temps/thuc_te_2.jpg','',array('class'=>'img-ti2-list')
                                                 ) }}</a>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
                                         <div class="row">
                                             <a class="fancybox" data-fancybox="gallery-ti2-3"
-                                               href="{{url('/').'/images/temps/4.jpg'}}">
-                                                {{ Html::image('images/temps/4.jpg','',array('class'=>'img-ti2-list')
+                                               href="{{url('/').'/images/temps/thuc_te_3.jpg'}}">
+                                                {{ Html::image('images/temps/thuc_te_3.jpg','',array('class'=>'img-ti2-list')
                                                 ) }}</a>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
                                         <div class="row">
                                             <a class="fancybox" data-fancybox="gallery-ti2-3"
-                                               href="{{url('/').'/images/temps/5.jpg'}}">
-                                                {{ Html::image('images/temps/5.jpg','',array('class'=>'img-ti2-list')
+                                               href="{{url('/').'/images/temps/thuc_te_4.jpg'}}">
+                                                {{ Html::image('images/temps/thuc_te_4.jpg','',array('class'=>'img-ti2-list')
                                                 ) }}</a>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
                                         <div class="row">
                                             <a class="fancybox" data-fancybox="gallery-ti2-3"
-                                               href="{{url('/').'/images/temps/6.jpg'}}">
-                                                {{ Html::image('images/temps/6.jpg','',array('class'=>'img-ti2-list')
+                                               href="{{url('/').'/images/temps/thuc_te_5.jpg'}}">
+                                                {{ Html::image('images/temps/thuc_te_5.jpg','',array('class'=>'img-ti2-list')
                                                 ) }}</a>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
                                         <div class="row">
                                             <a class="fancybox" data-fancybox="gallery-ti2-3"
-                                               href="{{url('/').'/images/temps/7.jpg'}}">
-                                                {{ Html::image('images/temps/7.jpg','',array('class'=>'img-ti2-list')
+                                               href="{{url('/').'/images/temps/thuc_te_6.jpg'}}">
+                                                {{ Html::image('images/temps/thuc_te_6.jpg','',array('class'=>'img-ti2-list')
                                                 ) }}</a>
                                         </div>
                                     </div>
-                                    <div class="col-md-4">
-                                        <div class="row">
-                                            <a class="fancybox" data-fancybox="gallery-ti2-3"
-                                               href="{{url('/').'/images/temps/8.jpg'}}">
-                                                {{ Html::image('images/temps/8.jpg','',array('class'=>'img-ti2-list')
-                                                ) }}</a>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="row">
-                                            <a class="fancybox" data-fancybox="gallery-ti2-3"
-                                               href="{{url('/').'/images/temps/9.jpg'}}">
-                                                {{ Html::image('images/temps/9.jpg','',array('class'=>'img-ti2-list')
-                                                ) }}</a>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="row">
-                                            <a class="fancybox" data-fancybox="gallery-ti2-3"
-                                               href="{{url('/').'/images/temps/10.jpg'}}">
-                                                {{ Html::image('images/temps/10.jpg','',array('class'=>'img-ti2-list')
-                                                ) }}</a>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="row">
-                                            <a class="fancybox" data-fancybox="gallery-ti2-3"
-                                               href="{{url('/').'/images/temps/11.jpg'}}">
-                                                {{ Html::image('images/temps/11.jpg','',array('class'=>'img-ti2-list')
-                                                ) }}</a>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="row">
-                                            <a class="fancybox" data-fancybox="gallery-ti2-3"
-                                               href="{{url('/').'/images/temps/12.jpg'}}">
-                                                {{ Html::image('images/temps/12.jpg','',array('class'=>'img-ti2-list')
-                                                ) }}</a>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="row">
-                                            <a class="fancybox" data-fancybox="gallery-ti2-3"
-                                               href="{{url('/').'/images/temps/13.jpg'}}">
-                                                {{ Html::image('images/temps/13.jpg','',array('class'=>'img-ti2-list')
-                                                ) }}</a>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="row">
-                                            <a class="fancybox" data-fancybox="gallery-ti2-3"
-                                               href="{{url('/').'/images/temps/14.jpg'}}">
-                                                {{ Html::image('images/temps/14.jpg','',array('class'=>'img-ti2-list')
-                                                ) }}</a>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="row">
-                                            <a class="fancybox" data-fancybox="gallery-ti2-3"
-                                               href="{{url('/').'/images/temps/15.jpg'}}">
-                                                {{ Html::image('images/temps/15.jpg','',array('class'=>'img-ti2-list')
-                                                ) }}</a>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="row">
-                                            <a class="fancybox" data-fancybox="gallery-ti2-3"
-                                               href="{{url('/').'/images/temps/16.jpg'}}">
-                                                {{ Html::image('images/temps/16.jpg','',array('class'=>'img-ti2-list')
-                                                ) }}</a>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="row">
-                                            <a class="fancybox" data-fancybox="gallery-ti2-3"
-                                               href="{{url('/').'/images/temps/17.jpg'}}">
-                                                {{ Html::image('images/temps/17.jpg','',array('class'=>'img-ti2-list')
-                                                ) }}</a>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="row">
-                                            <a class="fancybox" data-fancybox="gallery-ti2-3"
-                                               href="{{url('/').'/images/temps/18.jpg'}}">
-                                                {{ Html::image('images/temps/18.jpg','',array('class'=>'img-ti2-list')
-                                                ) }}</a>
-                                        </div>
-                                    </div>
+                                    {{--<div class="col-md-4">--}}
+                                        {{--<div class="row">--}}
+                                            {{--<a class="fancybox" data-fancybox="gallery-ti2-3"--}}
+                                               {{--href="{{url('/').'/images/temps/8.jpg'}}">--}}
+                                                {{--{{ Html::image('images/temps/8.jpg','',array('class'=>'img-ti2-list')--}}
+                                                {{--) }}</a>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                    {{--<div class="col-md-4">--}}
+                                        {{--<div class="row">--}}
+                                            {{--<a class="fancybox" data-fancybox="gallery-ti2-3"--}}
+                                               {{--href="{{url('/').'/images/temps/9.jpg'}}">--}}
+                                                {{--{{ Html::image('images/temps/9.jpg','',array('class'=>'img-ti2-list')--}}
+                                                {{--) }}</a>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                    {{--<div class="col-md-4">--}}
+                                        {{--<div class="row">--}}
+                                            {{--<a class="fancybox" data-fancybox="gallery-ti2-3"--}}
+                                               {{--href="{{url('/').'/images/temps/10.jpg'}}">--}}
+                                                {{--{{ Html::image('images/temps/10.jpg','',array('class'=>'img-ti2-list')--}}
+                                                {{--) }}</a>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                    {{--<div class="col-md-4">--}}
+                                        {{--<div class="row">--}}
+                                            {{--<a class="fancybox" data-fancybox="gallery-ti2-3"--}}
+                                               {{--href="{{url('/').'/images/temps/11.jpg'}}">--}}
+                                                {{--{{ Html::image('images/temps/11.jpg','',array('class'=>'img-ti2-list')--}}
+                                                {{--) }}</a>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                    {{--<div class="col-md-4">--}}
+                                        {{--<div class="row">--}}
+                                            {{--<a class="fancybox" data-fancybox="gallery-ti2-3"--}}
+                                               {{--href="{{url('/').'/images/temps/12.jpg'}}">--}}
+                                                {{--{{ Html::image('images/temps/12.jpg','',array('class'=>'img-ti2-list')--}}
+                                                {{--) }}</a>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                    {{--<div class="col-md-4">--}}
+                                        {{--<div class="row">--}}
+                                            {{--<a class="fancybox" data-fancybox="gallery-ti2-3"--}}
+                                               {{--href="{{url('/').'/images/temps/13.jpg'}}">--}}
+                                                {{--{{ Html::image('images/temps/13.jpg','',array('class'=>'img-ti2-list')--}}
+                                                {{--) }}</a>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                    {{--<div class="col-md-4">--}}
+                                        {{--<div class="row">--}}
+                                            {{--<a class="fancybox" data-fancybox="gallery-ti2-3"--}}
+                                               {{--href="{{url('/').'/images/temps/14.jpg'}}">--}}
+                                                {{--{{ Html::image('images/temps/14.jpg','',array('class'=>'img-ti2-list')--}}
+                                                {{--) }}</a>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                    {{--<div class="col-md-4">--}}
+                                        {{--<div class="row">--}}
+                                            {{--<a class="fancybox" data-fancybox="gallery-ti2-3"--}}
+                                               {{--href="{{url('/').'/images/temps/15.jpg'}}">--}}
+                                                {{--{{ Html::image('images/temps/15.jpg','',array('class'=>'img-ti2-list')--}}
+                                                {{--) }}</a>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                    {{--<div class="col-md-4">--}}
+                                        {{--<div class="row">--}}
+                                            {{--<a class="fancybox" data-fancybox="gallery-ti2-3"--}}
+                                               {{--href="{{url('/').'/images/temps/16.jpg'}}">--}}
+                                                {{--{{ Html::image('images/temps/16.jpg','',array('class'=>'img-ti2-list')--}}
+                                                {{--) }}</a>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                    {{--<div class="col-md-4">--}}
+                                        {{--<div class="row">--}}
+                                            {{--<a class="fancybox" data-fancybox="gallery-ti2-3"--}}
+                                               {{--href="{{url('/').'/images/temps/17.jpg'}}">--}}
+                                                {{--{{ Html::image('images/temps/17.jpg','',array('class'=>'img-ti2-list')--}}
+                                                {{--) }}</a>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                    {{--<div class="col-md-4">--}}
+                                        {{--<div class="row">--}}
+                                            {{--<a class="fancybox" data-fancybox="gallery-ti2-3"--}}
+                                               {{--href="{{url('/').'/images/temps/18.jpg'}}">--}}
+                                                {{--{{ Html::image('images/temps/18.jpg','',array('class'=>'img-ti2-list')--}}
+                                                {{--) }}</a>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
                                 </div>
                             </div>
                         </div>

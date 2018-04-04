@@ -18,7 +18,7 @@ Route::get('/','PostsController@getFrontendContentTrangChu');
 Route::get('/category', 'PostsController@getFrontendContentCategory');
 Route::get('/vi-tri', 'PostsController@getFrontendContentVitri');
 Route::get('/can-ho', 'PostsController@getFrontendContentCanHo');
-Route::get('/thiet-ke', 'PostsController@getFrontendContentThietKe');
+Route::get('/mat-bang-tong-the', 'PostsController@getFrontendContentThietKe');
 Route::get('/tien-ich', 'PostsController@getFrontendContentTienIch');
 Route::get('/lien-he','PostsController@getFrontendContentLienHe');
 Route::get('/tin-tuc', 'NewsController@getAllNews');

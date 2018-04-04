@@ -9,7 +9,7 @@
         </div>
         <div id="tt-info" class="col-md-12">
             <div class="row">
-                {{ Html::image('images/temps/0003.jpg','',array('class'=>'img-khacbiet')) }}
+                {{ Html::image('images/temps/longhung_ly_do.jpg','',array('class'=>'img-khacbiet')) }}
 
                 {{--<div class="col-md-6">--}}
                     {{--<ul>--}}

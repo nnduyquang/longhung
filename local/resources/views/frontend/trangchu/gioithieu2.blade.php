@@ -9,29 +9,26 @@
                     <div class="col-md-6">
                         <ul>
                             <li>
-                                <strong>- Vị Trí Dự Án: </strong>Khu Đô Thị Nam Sài Gòn
+                                <strong>- Vị Trí Dự Án: </strong>Xã Long Hưng, TP Biên Hòa, Đồng Nai
                             </li>
                             <li>
-                                <strong>- Tổng Diện Tích Dự Án: </strong>9.016 m2
+                                <strong>- Tổng Diện Tích Dự Án: </strong>1300 ha
                             </li>
                             <li>
-                                <strong>- Diện Tích Sàn: </strong>74.599 m2
+                                <strong>- Loại Hình: </strong>Khu Đô Thị Cao Cấp
                             </li>
                         </ul>
                     </div>
                     <div class="col-md-6">
                         <ul>
                             <li>
-                                <strong>- Mật Độ Xây Dựng: </strong>37.40 m2
+                                <strong>- Chủ Đầu Tư: </strong>Tập đoàn DONACOOP
                             </li>
                             <li>
-                                <strong>- Chiều Cao: </strong>24 Tầng Bao Gồm 2 Khối Là Cityview (CI) Và Riverview (RI)
+                                <strong>- Đơn vị thi công: </strong>GDH – ÚC, Edaw – Mỹ, Nikken Sekkei – Nhật Bản
                             </li>
                             <li>
-                                <strong>- Số Căn Hộ: </strong> 1.068 căn
-                            </li>
-                            <li>
-                                <strong>- Chủ Đầu Tư: </strong> LGD Group
+                                <strong>- Đang Triển Khai: </strong> Giai đoạn 1 diện tích 227 ha với tên thương mại Khu đô thị Long Hưng
                             </li>
                         </ul>
                     </div>
@@ -42,22 +39,22 @@
                     <div class="col-md-4">
                         <div class="row">
                             <a class="fancybox"data-fancybox="gallery"
-                               href="{{url('/').'/images/temps/o86in_Tổng-quan-dự-án-Saigon-Intela-PTKD-3.jpg'}}">
-                            {{ Html::image('images/temps/o86in_Tổng-quan-dự-án-Saigon-Intela-PTKD-3.jpg','',array('class'=>'img-gt2-list')) }}</a>
+                               href="{{url('/').'/images/temps/tong_quan.png'}}">
+                            {{ Html::image('images/temps/tong_quan.png','',array('class'=>'img-gt2-list')) }}</a>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="row">
                             <a class="fancybox" data-fancybox="gallery"
-                               href="{{url('/').'/images/temps/t2qtv_Tổng-quan-dự-án-Saigon-Intela-PTKD-4.jpg'}}">
-                            {{ Html::image('images/temps/t2qtv_Tổng-quan-dự-án-Saigon-Intela-PTKD-4.jpg','',array('class'=>'img-gt2-list')) }}</a>
+                               href="{{url('/').'/images/temps/ben-du-thuyen-du-an-long-hung-city.jpg'}}">
+                            {{ Html::image('images/temps/ben-du-thuyen-du-an-long-hung-city.jpg','',array('class'=>'img-gt2-list')) }}</a>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="row">
                             <a class="fancybox" data-fancybox="gallery"
-                               href="{{url('/').'/images/temps/512j4_Tổng-quan-dự-án-Saigon-Intela-PTKD-7.jpg'}}">
-                            {{ Html::image('images/temps/512j4_Tổng-quan-dự-án-Saigon-Intela-PTKD-7.jpg','',array('class'=>'img-gt2-list')) }}</a>
+                               href="{{url('/').'/images/temps/mat-bang-tong-the-du-an-long-hung-1.jpg'}}">
+                            {{ Html::image('images/temps/mat-bang-tong-the-du-an-long-hung-1.jpg','',array('class'=>'img-gt2-list')) }}</a>
                         </div>
                     </div>
                 </div>

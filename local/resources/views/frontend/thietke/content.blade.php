@@ -8,7 +8,7 @@
         <div class="col-md-12">
             <div class="row">
                 <div class="p-w-title">
-                    <h1 class="p-title">Thiết Kế Căn Hộ SaiGon Intela</h1>
+                    <h1 class="p-title">Mặt Bằng Tổng Thể</h1>
                 </div>
             </div>
         </div>

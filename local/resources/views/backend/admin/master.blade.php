@@ -241,22 +241,27 @@ scratch. This page gets rid of all links and provides the needed markup only.
                     @endif
                     <li><a href="{{ route('news.index') }}"><i class="fa fa-link"></i> <span>Tin Tức</span></a></li>
                     {{--<li><a href="{{ route('emp.index') }}"><i class="fa fa-link"></i> <span>Quản Lý Nhân Viên</span></a></li>--}}
-                    <li class="treeview">
-                        <a href="#"><i class="fa fa-link"></i><span>Bài Viết</span>
-                            <span class="pull-right-container">
-                                <i class="fa fa-angle-left pull-right"></i>
-                            </span>
-                        </a>
-                        <ul class="treeview-menu">
-                            <li><a href="{{ route('posts.trangchu.index') }}">Trang Chủ</a></li>
-                            <li><a href="{{ route('posts.vitri.index') }}">Vị Trí</a></li>
-                            <li><a href="{{ route('posts.canho.index') }}">Căn Hộ</a></li>
-                            <li><a href="{{ route('posts.thietke.index') }}">Thiết Kế</a></li>
-                            <li><a href="{{ route('posts.tienich.index') }}">Tiện Ích</a></li>
-                            <li><a href="#">Thiết Kế</a></li>
-                            <li><a href="#">Thanh Toán</a></li>
-                        </ul>
-                    </li>
+                    <li><a href="{{ route('posts.trangchu.index') }}">Trang Chủ</a></li>
+                    <li><a href="{{ route('posts.vitri.index') }}">Vị Trí</a></li>
+                    <li><a href="{{ route('posts.canho.index') }}">Căn Hộ</a></li>
+                    <li><a href="{{ route('posts.thietke.index') }}">Thiết Kế</a></li>
+                    <li><a href="{{ route('posts.tienich.index') }}">Tiện Ích</a></li>
+                    {{--<li class="treeview">--}}
+                        {{--<a href="#"><i class="fa fa-link"></i><span>Bài Viết</span>--}}
+                            {{--<span class="pull-right-container">--}}
+                                {{--<i class="fa fa-angle-left pull-right"></i>--}}
+                            {{--</span>--}}
+                        {{--</a>--}}
+                        {{--<ul class="treeview-menu">--}}
+                            {{--<li><a href="{{ route('posts.trangchu.index') }}">Trang Chủ</a></li>--}}
+                            {{--<li><a href="{{ route('posts.vitri.index') }}">Vị Trí</a></li>--}}
+                            {{--<li><a href="{{ route('posts.canho.index') }}">Căn Hộ</a></li>--}}
+                            {{--<li><a href="{{ route('posts.thietke.index') }}">Thiết Kế</a></li>--}}
+                            {{--<li><a href="{{ route('posts.tienich.index') }}">Tiện Ích</a></li>--}}
+                            {{--<li><a href="#">Thiết Kế</a></li>--}}
+                            {{--<li><a href="#">Thanh Toán</a></li>--}}
+                        {{--</ul>--}}
+                    {{--</li>--}}
 
                     <li class="treeview">
                         <a href="#"><i class="fa fa-link"></i><span>Cấu Hình</span>
