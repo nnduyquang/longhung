@@ -7,7 +7,7 @@
                 <span class="km-span-dash">
                     {{--<span class="line"></span>--}}
                 </span>
-            <h4>SÀI GÒN INTELA CĂN HỘ THÔNG MINH VEN SÔNG</h4>
+            <h4>ĐẤT NỀN LONG HƯNG</h4>
             <span class="km-span-dash">
                     {{--<span class="line"></span>--}}
                 </span>

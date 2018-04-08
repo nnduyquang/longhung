@@ -8,7 +8,7 @@
         <div class="col-md-12">
             <div class="row">
                 <div class="p-w-title">
-                    <h1 class="p-title">Tiện Ích Dự Án SaiGon Intela</h1>
+                    <h1 class="p-title">Tiến Độ Đất Nền Long Hưng</h1>
                 </div>
             </div>
         </div>

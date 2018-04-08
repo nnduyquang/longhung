@@ -31,7 +31,7 @@
             @if($cauhinh->name=='email-receive')
                 <div class="col-md-12">
                     <div class="form-group">
-                        <strong>EMail Nhận Báo Giá:</strong>
+                        <strong>Email Nhận Báo Giá:</strong>
                         {!! Form::text('email-receive', $cauhinh->content, array('placeholder' => '','class' => 'form-control')) !!}
                         {{ Form::hidden('hd-email-receive', $cauhinh->content) }}
                     </div>
@@ -42,7 +42,7 @@
                     <div class="form-group">
                         <strong>Tiêu Đề Email Khách Hàng Nhận Phản Hồi:</strong>
                         {!! Form::text('email-sender-subject', $cauhinh->content, array('placeholder' => '','class' => 'form-control')) !!}
-                        {{ $category->name}}
+                        {{ $cauhinh->name}}
                     </div>
                 </div>
             @endif

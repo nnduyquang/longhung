@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col-md-12 f-hotline">
             <div class="row">
-                <span>HOTLINE: {{$phone->content}}(PHÒNG KINH DOANH CHỦ ĐẦU TƯ)</span>
+                <span>HOTLINE: {{$phone->content}}(PHÒNG KINH DOANH ĐẤT NỀN LONG HƯNG)</span>
             </div>
         </div>
         <div class="col-md-12 f-wrap-info">
@@ -12,11 +12,11 @@
                 </div>
                 <div class="col-md-6">
                     <p>THÔNG TIN LIÊN HỆ</p>
-                    <p><strong>Địa chỉ:</strong> <span class="dc">DP-11, Dragon Parc 1, Đường Nguyễn Hữu Thọ, Phước Kiển, H.Nhà Bè. TP.HCM.</span></p>
-                    <p><strong>Đường dây nóng:</strong> 0909.633.252</p>
-                    <p><strong>Website:</strong> saigonintelahcm.com</p>
+                    <p><strong>Địa chỉ:</strong> <span class="dc">449 Trần Hưng Đạo, Phường Cầu Kho, Quận 1, HCM.</span></p>
+                    <p><strong>Đường dây nóng:</strong> 0909.345.117</p>
+                    <p><strong>Website:</strong> datnenlonghung.com</p>
                     <p></p>
-                    <p><strong>Email:</strong> saigonintelahcm@gmail.com</p>
+                    <p><strong>Email:</strong> linhngoc1712@gmail.com</p>
                 </div>
                 <div class="col-md-5">
                     {{--<p>DANH MỤC</p>--}}

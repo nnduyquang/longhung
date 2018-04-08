@@ -246,6 +246,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
                     <li><a href="{{ route('posts.canho.index') }}">Căn Hộ</a></li>
                     <li><a href="{{ route('posts.thietke.index') }}">Thiết Kế</a></li>
                     <li><a href="{{ route('posts.tienich.index') }}">Tiện Ích</a></li>
+                    <li><a href="{{ route('config.index') }}">Cấu Hình Chung</a></li>
+                    <li><a href="{{ route('config.email.index') }}">Email</a></li>
+                    <li><a href="{{ route('config.slider.index') }}">Quản Lý Slider</a></li>
+                    <li><a href="{{ route('config.tienich.index') }}">Quản Lý Hình Ảnh Tiện Ích</a></li>
                     {{--<li class="treeview">--}}
                         {{--<a href="#"><i class="fa fa-link"></i><span>Bài Viết</span>--}}
                             {{--<span class="pull-right-container">--}}
@@ -263,19 +267,19 @@ scratch. This page gets rid of all links and provides the needed markup only.
                         {{--</ul>--}}
                     {{--</li>--}}
 
-                    <li class="treeview">
-                        <a href="#"><i class="fa fa-link"></i><span>Cấu Hình</span>
-                            <span class="pull-right-container">
-                                <i class="fa fa-angle-left pull-right"></i>
-                            </span>
-                        </a>
-                        <ul class="treeview-menu">
-                            <li><a href="{{ route('config.index') }}">Cấu Hình Chung</a></li>
-                            <li><a href="{{ route('config.email.index') }}">Email</a></li>
-                            <li><a href="{{ route('config.slider.index') }}">Quản Lý Slider</a></li>
-                            <li><a href="{{ route('config.tienich.index') }}">Quản Lý Hình Ảnh Tiện Ích</a></li>
-                        </ul>
-                    </li>
+                    {{--<li class="treeview">--}}
+                        {{--<a href="#"><i class="fa fa-link"></i><span>Cấu Hình</span>--}}
+                            {{--<span class="pull-right-container">--}}
+                                {{--<i class="fa fa-angle-left pull-right"></i>--}}
+                            {{--</span>--}}
+                        {{--</a>--}}
+                        {{--<ul class="treeview-menu">--}}
+                            {{--<li><a href="{{ route('config.index') }}">Cấu Hình Chung</a></li>--}}
+                            {{--<li><a href="{{ route('config.email.index') }}">Email</a></li>--}}
+                            {{--<li><a href="{{ route('config.slider.index') }}">Quản Lý Slider</a></li>--}}
+                            {{--<li><a href="{{ route('config.tienich.index') }}">Quản Lý Hình Ảnh Tiện Ích</a></li>--}}
+                        {{--</ul>--}}
+                    {{--</li>--}}
                 </ul>
 
             </ul>
