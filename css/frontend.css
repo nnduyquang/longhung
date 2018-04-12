@@ -247,6 +247,7 @@ This class is added to the container
   position: fixed;
   bottom: 0;
   right: 0;
+  top: 840px;
 }
 
 .callback {

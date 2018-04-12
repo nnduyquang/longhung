@@ -8,11 +8,11 @@
     {{ Html::script('js/lightgallery.js') }}
 @stop
 @section('slider')
-    <div class="col-md-12 hidden-lg hidden-md">
-        <div class="row">
-            @include('frontend.slider.index')
-        </div>
-    </div>
+    {{--<div class="col-md-12 hidden-lg hidden-md">--}}
+        {{--<div class="row">--}}
+            {{--@include('frontend.slider.index')--}}
+        {{--</div>--}}
+    {{--</div>--}}
     <div class="col-md-12 hidden-sm hidden-xs">
         <div class="row">
             @include('frontend.slider.slider2')

@@ -14,7 +14,7 @@
                     <p>THÔNG TIN LIÊN HỆ</p>
                     <p><strong>Địa chỉ:</strong> <span class="dc">449 Trần Hưng Đạo, Phường Cầu Kho, Quận 1, HCM.</span></p>
                     <p><strong>Đường dây nóng:</strong> 0909.345.117</p>
-                    <p><strong>Website:</strong> datnenlonghung.com</p>
+                    <p><strong>Website:</strong> datlonghung.com</p>
                     <p></p>
                     <p><strong>Email:</strong> linhngoc1712@gmail.com</p>
                 </div>

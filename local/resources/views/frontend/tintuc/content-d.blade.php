@@ -3,7 +3,7 @@
         <div class="col-md-12">
             <div class="row">
                 <div class="container">
-                    {{ Html::image('images/temps/Sai-Gon_intela.jpg','',array('class'=>'p-d-content-img')) }}
+                    {{ Html::image('images/sliders/ban-dat-nen-khu-do-thi-long-hung-cua-ngo-phia-dong.jpg','',array('class'=>'p-d-content-img')) }}
                 </div>
             </div>
         </div>

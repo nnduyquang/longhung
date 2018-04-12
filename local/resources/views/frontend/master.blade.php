@@ -54,7 +54,7 @@
     <div class="phone_animation">
         <div class="phone_animation_circle"></div>
         <div class="phone_animation_circle_fill"></div>
-        <a href="tel:0909633252" class="phone_animation_circle_fill_img"><i class="fa fa-phone" aria-hidden="true"></i></a>
+        <a href="tel:0909345177" class="phone_animation_circle_fill_img"><i class="fa fa-phone" aria-hidden="true"></i></a>
     </div>
 </div>
 <script type="text/javascript">
